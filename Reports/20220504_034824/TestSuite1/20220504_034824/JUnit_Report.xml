@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite1" time="261.336" tests="4" failures="0" errors="0">
+   <testsuite name="TestSuite1" tests="4" failures="0" errors="0" time="261.336" skipped="0" timestamp="2022-05-04 03:48:47" hostname="sengc - LAPTOP-SJK6EH97" id="Test Suites/TestSuite1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\sengc\\Katalon Studio\\Automated-Testing-Management-App\\Reports\\20220504_034824\\TestSuite1\\20220504_034824"/>
+         <property name="logFiles" value="C:\\Users\\sengc\\Katalon Studio\\Automated-Testing-Management-App\\Reports\\20220504_034824\\TestSuite1\\20220504_034824\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\sengc\\Katalon Studio\\Automated-Testing-Management-App\\Reports\\20220504_034824\\TestSuite1\\20220504_034824\\1651603772312.png, C:\\Users\\sengc\\Katalon Studio\\Automated-Testing-Management-App\\Reports\\20220504_034824\\TestSuite1\\20220504_034824\\1651603809193.png, C:\\Users\\sengc\\Katalon Studio\\Automated-Testing-Management-App\\Reports\\20220504_034824\\TestSuite1\\20220504_034824\\1651603918323.png, C:\\Users\\sengc\\Katalon Studio\\Automated-Testing-Management-App\\Reports\\20220504_034824\\TestSuite1\\20220504_034824\\1651603942204.png, C:\\Users\\sengc\\Katalon Studio\\Automated-Testing-Management-App\\Reports\\20220504_034824\\TestSuite1\\20220504_034824\\1651603967191.png"/>
+         <property name="hostName" value="sengc - LAPTOP-SJK6EH97"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+         <property name="browser" value="Chrome 100.0.4896.127"/>
+         <property name="hostAddress" value="169.254.190.39"/>
+         <property name="sessionId" value="c25c61fbf076cc36ae6ed31e992c8fc3"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TestCase-ViewDashboard-1" time="40.939" classname="Test Cases/TestCase-ViewDashboard-1" status="PASSED">
+         <system-out><![CDATA[2022-05-04 03:50:10 - [TEST_CASE][PASSED] - Test Cases/TestCase-ViewDashboard-1: Test Cases/TestCase-ViewDashboard-1
+
+2022-05-04 03:50:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-04 03:50:10 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-05-04 03:50:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-04 03:50:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-04 03:50:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-04 03:50:13 - [TEST_STEP][PASSED] - navigateToUrl("https://nk-gke-test.gcp.workmap.ai/#/signIn"): Navigate to 'https://nk-gke-test.gcp.workmap.ai/#/signIn' successfully
+
+2022-05-04 03:50:21 - [MESSAGE][PASSED] - Navigate to 'https://nk-gke-test.gcp.workmap.ai/#/signIn' successfully
+
+2022-05-04 03:50:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Workmap/input_Sign in_normal_login_username"), "pankajunk@gmail.com"): Text 'pankajunk@gmail.com' is set on object 'Object Repository/Page_Workmap/input_Sign in_normal_login_username'
+
+2022-05-04 03:50:22 - [MESSAGE][PASSED] - Text 'pankajunk@gmail.com' is set on object 'Object Repository/Page_Workmap/input_Sign in_normal_login_username'
+
+2022-05-04 03:50:22 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Workmap/input_Sign in_normal_login_password"), "Piu45nT0PQ8="): Text ****** has been set on object 'Object Repository/Page_Workmap/input_Sign in_normal_login_password'
+
+2022-05-04 03:50:23 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Workmap/input_Sign in_normal_login_password'
+
+2022-05-04 03:50:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Workmap/button_Log in")): Object: 'Object Repository/Page_Workmap/button_Log in' is clicked on
+
+2022-05-04 03:50:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Workmap/button_Log in' is clicked on
+
+2022-05-04 03:50:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Workmap/a_Go to app")): Object: 'Object Repository/Page_Workmap/a_Go to app' is clicked on
+
+2022-05-04 03:50:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Workmap/a_Go to app' is clicked on
+
+2022-05-04 03:50:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Workmap/main_Home TestingPatient Onboarding FormThi_793582")): Object: 'Object Repository/Page_Workmap/main_Home TestingPatient Onboarding FormThi_793582' is clicked on
+
+2022-05-04 03:50:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Workmap/main_Home TestingPatient Onboarding FormThi_793582' is clicked on
+
+2022-05-04 03:50:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Workmap/i_SA_custom-svg-icon")): Object: 'Object Repository/Page_Workmap/i_SA_custom-svg-icon' is clicked on
+
+2022-05-04 03:50:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Workmap/i_SA_custom-svg-icon' is clicked on
+
+2022-05-04 03:50:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Workmap/a_Go to app_1")): Object: 'Object Repository/Page_Workmap/a_Go to app_1' is clicked on
+
+2022-05-04 03:50:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Workmap/a_Go to app_1' is clicked on
+
+2022-05-04 03:50:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Workmap/i_SA_custom-svg-icon")): Object: 'Object Repository/Page_Workmap/i_SA_custom-svg-icon' is clicked on
+
+2022-05-04 03:50:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Workmap/i_SA_custom-svg-icon' is clicked on
+
+2022-05-04 03:50:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Workmap/svg")): Object: 'Object Repository/Page_Workmap/svg' is clicked on
+
+2022-05-04 03:50:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Workmap/svg' is clicked on
+
+2022-05-04 03:50:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Workmap/div_PoC Testing")): Object: 'Object Repository/Page_Workmap/div_PoC Testing' is clicked on
+
+2022-05-04 03:50:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Workmap/div_PoC Testing' is clicked on
+
+2022-05-04 03:50:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Workmap/a_Testing Queue")): Object: 'Object Repository/Page_Workmap/a_Testing Queue' is clicked on
+
+2022-05-04 03:50:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Workmap/a_Testing Queue' is clicked on
+
+2022-05-04 03:50:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Workmap/i_Automation_mdi mdi-chart-arc")): Object: 'Object Repository/Page_Workmap/i_Automation_mdi mdi-chart-arc' is clicked on
+
+2022-05-04 03:50:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Workmap/i_Automation_mdi mdi-chart-arc' is clicked on
+
+2022-05-04 03:50:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Workmap/button_Positive Patients this Week")): Object: 'Object Repository/Page_Workmap/button_Positive Patients this Week' is clicked on
+
+2022-05-04 03:50:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Workmap/button_Positive Patients this Week' is clicked on
+
+2022-05-04 03:50:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Workmap/li_Positive Patients")): Object: 'Object Repository/Page_Workmap/li_Positive Patients' is clicked on
+
+2022-05-04 03:50:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Workmap/li_Positive Patients' is clicked on
+
+2022-05-04 03:50:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Workmap/button_Positive Patients")): Object: 'Object Repository/Page_Workmap/button_Positive Patients' is clicked on
+
+2022-05-04 03:50:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Workmap/button_Positive Patients' is clicked on
+
+2022-05-04 03:50:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Workmap/span_Tested Patients")): Object: 'Object Repository/Page_Workmap/span_Tested Patients' is clicked on
+
+2022-05-04 03:50:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Workmap/span_Tested Patients' is clicked on
+
+2022-05-04 03:50:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Workmap/span_Home Testing")): Object: 'Object Repository/Page_Workmap/span_Home Testing' is clicked on
+
+2022-05-04 03:50:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Workmap/span_Home Testing' is clicked on
+
+2022-05-04 03:50:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Workmap/a_Tests")): Object: 'Object Repository/Page_Workmap/a_Tests' is clicked on
+
+2022-05-04 03:50:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Workmap/a_Tests' is clicked on
+
+2022-05-04 03:50:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Workmap/i_Automation_mdi mdi-chart-arc")): Object: 'Object Repository/Page_Workmap/i_Automation_mdi mdi-chart-arc' is clicked on
+
+2022-05-04 03:50:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Workmap/i_Automation_mdi mdi-chart-arc' is clicked on
+
+2022-05-04 03:50:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Workmap/button_Positives this week")): Object: 'Object Repository/Page_Workmap/button_Positives this week' is clicked on
+
+2022-05-04 03:50:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Workmap/button_Positives this week' is clicked on
+
+2022-05-04 03:50:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Workmap/a_Patients")): Object: 'Object Repository/Page_Workmap/a_Patients' is clicked on
+
+2022-05-04 03:50:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Workmap/a_Patients' is clicked on
+
+2022-05-04 03:50:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Workmap/i_Automation_mdi mdi-chart-arc")): Object: 'Object Repository/Page_Workmap/i_Automation_mdi mdi-chart-arc' is clicked on
+
+2022-05-04 03:50:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Workmap/i_Automation_mdi mdi-chart-arc' is clicked on
+
+2022-05-04 03:50:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Workmap/button_Vaccinated Patients")): Object: 'Object Repository/Page_Workmap/button_Vaccinated Patients' is clicked on
+
+2022-05-04 03:50:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Workmap/button_Vaccinated Patients' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestCase-AddUser-1" time="21.433" classname="Test Cases/TestCase-AddUser-1" status="PASSED">
+         <system-out><![CDATA[2022-05-04 03:50:51 - [TEST_CASE][PASSED] - Test Cases/TestCase-AddUser-1: Test Cases/TestCase-AddUser-1
+
+2022-05-04 03:50:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-04 03:50:52 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-05-04 03:50:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-04 03:50:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-04 03:50:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-04 03:50:55 - [TEST_STEP][PASSED] - navigateToUrl("https://nk-gke-test.gcp.workmap.ai/#/signIn"): Navigate to 'https://nk-gke-test.gcp.workmap.ai/#/signIn' successfully
+
+2022-05-04 03:51:06 - [MESSAGE][PASSED] - Navigate to 'https://nk-gke-test.gcp.workmap.ai/#/signIn' successfully
+
+2022-05-04 03:51:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Workmap/input_Sign in_normal_login_username (3)"), "pankajunk@gmail.com"): Text 'pankajunk@gmail.com' is set on object 'Object Repository/Page_Workmap/input_Sign in_normal_login_username (3)'
+
+2022-05-04 03:51:07 - [MESSAGE][PASSED] - Text 'pankajunk@gmail.com' is set on object 'Object Repository/Page_Workmap/input_Sign in_normal_login_username (3)'
+
+2022-05-04 03:51:07 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Workmap/input_Sign in_normal_login_password (3)"), "Piu45nT0PQ8="): Text ****** has been set on object 'Object Repository/Page_Workmap/input_Sign in_normal_login_password (3)'
+
+2022-05-04 03:51:08 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Workmap/input_Sign in_normal_login_password (3)'
+
+2022-05-04 03:51:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Workmap/button_Log in (3)")): Object: 'Object Repository/Page_Workmap/button_Log in (3)' is clicked on
+
+2022-05-04 03:51:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Workmap/button_Log in (3)' is clicked on
+
+2022-05-04 03:51:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Workmap/span_SA")): Object: 'Object Repository/Page_Workmap/span_SA' is clicked on
+
+2022-05-04 03:51:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Workmap/span_SA' is clicked on
+
+2022-05-04 03:51:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Workmap/div_Users (1)")): Object: 'Object Repository/Page_Workmap/div_Users (1)' is clicked on
+
+2022-05-04 03:51:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Workmap/div_Users (1)' is clicked on
+
+2022-05-04 03:51:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Workmap/button_Add New (1)")): Object: 'Object Repository/Page_Workmap/button_Add New (1)' is clicked on
+
+2022-05-04 03:51:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Workmap/button_Add New (1)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestCase-AddUser-Download-2" time="21.114" classname="Test Cases/TestCase-AddUser-Download-2" status="PASSED">
+         <system-out><![CDATA[2022-05-04 03:51:12 - [TEST_CASE][PASSED] - Test Cases/TestCase-AddUser-Download-2: Test Cases/TestCase-AddUser-Download-2
+
+2022-05-04 03:51:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-04 03:51:14 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-05-04 03:51:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-04 03:51:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-04 03:51:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-04 03:51:16 - [TEST_STEP][PASSED] - navigateToUrl("https://nk-gke-test.gcp.workmap.ai/#/signIn"): Navigate to 'https://nk-gke-test.gcp.workmap.ai/#/signIn' successfully
+
+2022-05-04 03:51:23 - [MESSAGE][PASSED] - Navigate to 'https://nk-gke-test.gcp.workmap.ai/#/signIn' successfully
+
+2022-05-04 03:51:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Workmap/input_Sign in_normal_login_username (4)"), "pankajunk@gmail.com"): Text 'pankajunk@gmail.com' is set on object 'Object Repository/Page_Workmap/input_Sign in_normal_login_username (4)'
+
+2022-05-04 03:51:24 - [MESSAGE][PASSED] - Text 'pankajunk@gmail.com' is set on object 'Object Repository/Page_Workmap/input_Sign in_normal_login_username (4)'
+
+2022-05-04 03:51:24 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Workmap/input_Sign in_normal_login_password (4)"), "Piu45nT0PQ8="): Text ****** has been set on object 'Object Repository/Page_Workmap/input_Sign in_normal_login_password (4)'
+
+2022-05-04 03:51:25 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Workmap/input_Sign in_normal_login_password (4)'
+
+2022-05-04 03:51:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Workmap/button_Log in (4)")): Object: 'Object Repository/Page_Workmap/button_Log in (4)' is clicked on
+
+2022-05-04 03:51:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Workmap/button_Log in (4)' is clicked on
+
+2022-05-04 03:51:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Workmap/span_SA (1)")): Object: 'Object Repository/Page_Workmap/span_SA (1)' is clicked on
+
+2022-05-04 03:51:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Workmap/span_SA (1)' is clicked on
+
+2022-05-04 03:51:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Workmap/div_Users (2)")): Object: 'Object Repository/Page_Workmap/div_Users (2)' is clicked on
+
+2022-05-04 03:51:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Workmap/div_Users (2)' is clicked on
+
+2022-05-04 03:51:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Workmap/button_Add New (2)")): Object: 'Object Repository/Page_Workmap/button_Add New (2)' is clicked on
+
+2022-05-04 03:51:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Workmap/button_Add New (2)' is clicked on
+
+2022-05-04 03:51:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Workmap/input_Add New User_email (1)"), "mmj761776@gmail.com"): Text 'mmj761776@gmail.com' is set on object 'Object Repository/Page_Workmap/input_Add New User_email (1)'
+
+2022-05-04 03:51:31 - [MESSAGE][PASSED] - Text 'mmj761776@gmail.com' is set on object 'Object Repository/Page_Workmap/input_Add New User_email (1)'
+
+2022-05-04 03:51:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Workmap/div_Account Role (1)")): Object: 'Object Repository/Page_Workmap/div_Account Role (1)' is clicked on
+
+2022-05-04 03:51:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Workmap/div_Account Role (1)' is clicked on
+
+2022-05-04 03:51:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Workmap/li_Member (1)")): Object: 'Object Repository/Page_Workmap/li_Member (1)' is clicked on
+
+2022-05-04 03:51:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Workmap/li_Member (1)' is clicked on
+
+2022-05-04 03:51:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Workmap/button_Add New User (1)")): Object: 'Object Repository/Page_Workmap/button_Add New User (1)' is clicked on
+
+2022-05-04 03:51:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Workmap/button_Add New User (1)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestCase-Download-Patients" time="20.438" classname="Test Cases/TestCase-Download-Patients" status="PASSED">
+         <system-out><![CDATA[2022-05-04 03:52:48 - [TEST_CASE][PASSED] - Test Cases/TestCase-Download-Patients: Test Cases/TestCase-Download-Patients
+
+2022-05-04 03:52:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-04 03:52:48 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-05-04 03:52:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-04 03:52:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-04 03:52:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-04 03:52:50 - [TEST_STEP][PASSED] - navigateToUrl("https://nk-gke-test.gcp.workmap.ai/#/signIn"): Navigate to 'https://nk-gke-test.gcp.workmap.ai/#/signIn' successfully
+
+2022-05-04 03:52:57 - [MESSAGE][PASSED] - Navigate to 'https://nk-gke-test.gcp.workmap.ai/#/signIn' successfully
+
+2022-05-04 03:52:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Workmap/input_Sign in_normal_login_username (5)"), "pankajunk@gmail.com"): Text 'pankajunk@gmail.com' is set on object 'Object Repository/Page_Workmap/input_Sign in_normal_login_username (5)'
+
+2022-05-04 03:52:58 - [MESSAGE][PASSED] - Text 'pankajunk@gmail.com' is set on object 'Object Repository/Page_Workmap/input_Sign in_normal_login_username (5)'
+
+2022-05-04 03:52:58 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Workmap/input_Sign in_normal_login_password (5)"), "Piu45nT0PQ8="): Text ****** has been set on object 'Object Repository/Page_Workmap/input_Sign in_normal_login_password (5)'
+
+2022-05-04 03:52:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Workmap/input_Sign in_normal_login_password (5)'
+
+2022-05-04 03:52:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Workmap/button_Log in (5)")): Object: 'Object Repository/Page_Workmap/button_Log in (5)' is clicked on
+
+2022-05-04 03:52:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Workmap/button_Log in (5)' is clicked on
+
+2022-05-04 03:52:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Workmap/svg (3)")): Object: 'Object Repository/Page_Workmap/svg (3)' is clicked on
+
+2022-05-04 03:53:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Workmap/svg (3)' is clicked on
+
+2022-05-04 03:53:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Workmap/div_PoC Testing (3)")): Object: 'Object Repository/Page_Workmap/div_PoC Testing (3)' is clicked on
+
+2022-05-04 03:53:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Workmap/div_PoC Testing (3)' is clicked on
+
+2022-05-04 03:53:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Workmap/a_All Patients (1)")): Object: 'Object Repository/Page_Workmap/a_All Patients (1)' is clicked on
+
+2022-05-04 03:53:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Workmap/a_All Patients (1)' is clicked on
+
+2022-05-04 03:53:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Workmap/button_Add Phase_ant-btn download__button a_993cea (1)")): Object: 'Object Repository/Page_Workmap/button_Add Phase_ant-btn download__button a_993cea (1)' is clicked on
+
+2022-05-04 03:53:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Workmap/button_Add Phase_ant-btn download__button a_993cea (1)' is clicked on
+
+2022-05-04 03:53:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Workmap/div_Home Testing (2)")): Object: 'Object Repository/Page_Workmap/div_Home Testing (2)' is clicked on
+
+2022-05-04 03:53:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Workmap/div_Home Testing (2)' is clicked on
+
+2022-05-04 03:53:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Workmap/a_Patients (3)")): Object: 'Object Repository/Page_Workmap/a_Patients (3)' is clicked on
+
+2022-05-04 03:53:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Workmap/a_Patients (3)' is clicked on
+
+2022-05-04 03:53:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Workmap/button_Add Phase_ant-btn download__button a_993cea (1)")): Object: 'Object Repository/Page_Workmap/button_Add Phase_ant-btn download__button a_993cea (1)' is clicked on
+
+2022-05-04 03:53:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Workmap/button_Add Phase_ant-btn download__button a_993cea (1)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-05-04 03:48:47 - [TEST_SUITE][FAILED] - TestSuite1: Test Cases/TestCase-ViewDashboard-1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Workmap/a_Testing Queue'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TestCase-ViewDashboard-1.run(TestCase-ViewDashboard-1:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1651603704199.run(TempTestSuite1651603704199.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=100.0.4896.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-SJK6EH97', ip: '169.254.190.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\sengc\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51065}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b2527df477be40e10e04bdb905359a7c
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2022-05-04 03:48:47 - [TEST_SUITE][FAILED] - TestSuite1: Test Cases/TestCase-ViewDashboard-1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Workmap/a_Testing Queue'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TestCase-ViewDashboard-1.run(TestCase-ViewDashboard-1:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1651603704199.run(TempTestSuite1651603704199.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=100.0.4896.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-SJK6EH97', ip: '169.254.190.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\sengc\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51065}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b2527df477be40e10e04bdb905359a7c
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

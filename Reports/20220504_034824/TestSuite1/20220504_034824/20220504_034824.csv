@@ -1,0 +1,67 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite1,Chrome 100.0.4896.127,,,2022-05-04 03:48:47,2022-05-04 03:53:08,4m - 21.336s,PASSED
+,,,,,,,
+Test Cases/TestCase-ViewDashboard-1,Chrome 100.0.4896.127,,,2022-05-04 03:50:10,2022-05-04 03:50:51,40.939s,PASSED
+"openBrowser("""")",Chrome 100.0.4896.127,,,2022-05-04 03:50:10,2022-05-04 03:50:13,2.560s,PASSED
+"navigateToUrl(""https://nk-gke-test.gcp.workmap.ai/#/signIn"")",Chrome 100.0.4896.127,,,2022-05-04 03:50:13,2022-05-04 03:50:21,8.121s,PASSED
+"setText(findTestObject(""Object Repository/Page_Workmap/input_Sign in_normal_login_username""), ""pankajunk@gmail.com"")",Chrome 100.0.4896.127,,,2022-05-04 03:50:21,2022-05-04 03:50:22,1.204s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Workmap/input_Sign in_normal_login_password""), ""Piu45nT0PQ8="")",Chrome 100.0.4896.127,,,2022-05-04 03:50:22,2022-05-04 03:50:23,0.896s,PASSED
+"click(findTestObject(""Object Repository/Page_Workmap/button_Log in""))",Chrome 100.0.4896.127,,,2022-05-04 03:50:23,2022-05-04 03:50:23,0.646s,PASSED
+"click(findTestObject(""Object Repository/Page_Workmap/a_Go to app""))",Chrome 100.0.4896.127,,,2022-05-04 03:50:23,2022-05-04 03:50:26,2.029s,PASSED
+"click(findTestObject(""Object Repository/Page_Workmap/main_Home TestingPatient Onboarding FormThi_793582""))",Chrome 100.0.4896.127,,,2022-05-04 03:50:26,2022-05-04 03:50:28,2.188s,PASSED
+"click(findTestObject(""Object Repository/Page_Workmap/i_SA_custom-svg-icon""))",Chrome 100.0.4896.127,,,2022-05-04 03:50:28,2022-05-04 03:50:28,0.664s,PASSED
+"click(findTestObject(""Object Repository/Page_Workmap/a_Go to app_1""))",Chrome 100.0.4896.127,,,2022-05-04 03:50:28,2022-05-04 03:50:30,1.163s,PASSED
+"click(findTestObject(""Object Repository/Page_Workmap/i_SA_custom-svg-icon""))",Chrome 100.0.4896.127,,,2022-05-04 03:50:30,2022-05-04 03:50:32,2.026s,PASSED
+"click(findTestObject(""Object Repository/Page_Workmap/svg""))",Chrome 100.0.4896.127,,,2022-05-04 03:50:32,2022-05-04 03:50:33,1.115s,PASSED
+"click(findTestObject(""Object Repository/Page_Workmap/div_PoC Testing""))",Chrome 100.0.4896.127,,,2022-05-04 03:50:33,2022-05-04 03:50:33,0.642s,PASSED
+"click(findTestObject(""Object Repository/Page_Workmap/a_Testing Queue""))",Chrome 100.0.4896.127,,,2022-05-04 03:50:33,2022-05-04 03:50:35,1.218s,PASSED
+"click(findTestObject(""Object Repository/Page_Workmap/i_Automation_mdi mdi-chart-arc""))",Chrome 100.0.4896.127,,,2022-05-04 03:50:35,2022-05-04 03:50:37,2.016s,PASSED
+"click(findTestObject(""Object Repository/Page_Workmap/button_Positive Patients this Week""))",Chrome 100.0.4896.127,,,2022-05-04 03:50:37,2022-05-04 03:50:38,1.650s,PASSED
+"click(findTestObject(""Object Repository/Page_Workmap/li_Positive Patients""))",Chrome 100.0.4896.127,,,2022-05-04 03:50:38,2022-05-04 03:50:39,0.798s,PASSED
+"click(findTestObject(""Object Repository/Page_Workmap/button_Positive Patients""))",Chrome 100.0.4896.127,,,2022-05-04 03:50:39,2022-05-04 03:50:40,1.110s,PASSED
+"click(findTestObject(""Object Repository/Page_Workmap/span_Tested Patients""))",Chrome 100.0.4896.127,,,2022-05-04 03:50:40,2022-05-04 03:50:41,0.791s,PASSED
+"click(findTestObject(""Object Repository/Page_Workmap/span_Home Testing""))",Chrome 100.0.4896.127,,,2022-05-04 03:50:41,2022-05-04 03:50:42,1.508s,PASSED
+"click(findTestObject(""Object Repository/Page_Workmap/a_Tests""))",Chrome 100.0.4896.127,,,2022-05-04 03:50:42,2022-05-04 03:50:43,0.847s,PASSED
+"click(findTestObject(""Object Repository/Page_Workmap/i_Automation_mdi mdi-chart-arc""))",Chrome 100.0.4896.127,,,2022-05-04 03:50:43,2022-05-04 03:50:45,1.931s,PASSED
+"click(findTestObject(""Object Repository/Page_Workmap/button_Positives this week""))",Chrome 100.0.4896.127,,,2022-05-04 03:50:45,2022-05-04 03:50:47,1.396s,PASSED
+"click(findTestObject(""Object Repository/Page_Workmap/a_Patients""))",Chrome 100.0.4896.127,,,2022-05-04 03:50:47,2022-05-04 03:50:47,0.792s,PASSED
+"click(findTestObject(""Object Repository/Page_Workmap/i_Automation_mdi mdi-chart-arc""))",Chrome 100.0.4896.127,,,2022-05-04 03:50:47,2022-05-04 03:50:49,1.874s,PASSED
+"click(findTestObject(""Object Repository/Page_Workmap/button_Vaccinated Patients""))",Chrome 100.0.4896.127,,,2022-05-04 03:50:49,2022-05-04 03:50:51,1.709s,PASSED
+,,,,,,,
+Test Cases/TestCase-AddUser-1,Chrome 100.0.4896.127,,,2022-05-04 03:50:51,2022-05-04 03:51:12,21.433s,PASSED
+"openBrowser("""")",Chrome 100.0.4896.127,,,2022-05-04 03:50:52,2022-05-04 03:50:55,2.902s,PASSED
+"navigateToUrl(""https://nk-gke-test.gcp.workmap.ai/#/signIn"")",Chrome 100.0.4896.127,,,2022-05-04 03:50:55,2022-05-04 03:51:06,11.162s,PASSED
+"setText(findTestObject(""Object Repository/Page_Workmap/input_Sign in_normal_login_username (3)""), ""pankajunk@gmail.com"")",Chrome 100.0.4896.127,,,2022-05-04 03:51:06,2022-05-04 03:51:07,1.182s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Workmap/input_Sign in_normal_login_password (3)""), ""Piu45nT0PQ8="")",Chrome 100.0.4896.127,,,2022-05-04 03:51:07,2022-05-04 03:51:08,0.761s,PASSED
+"click(findTestObject(""Object Repository/Page_Workmap/button_Log in (3)""))",Chrome 100.0.4896.127,,,2022-05-04 03:51:08,2022-05-04 03:51:09,0.601s,PASSED
+"click(findTestObject(""Object Repository/Page_Workmap/span_SA""))",Chrome 100.0.4896.127,,,2022-05-04 03:51:09,2022-05-04 03:51:11,1.833s,PASSED
+"click(findTestObject(""Object Repository/Page_Workmap/div_Users (1)""))",Chrome 100.0.4896.127,,,2022-05-04 03:51:11,2022-05-04 03:51:11,0.818s,PASSED
+"click(findTestObject(""Object Repository/Page_Workmap/button_Add New (1)""))",Chrome 100.0.4896.127,,,2022-05-04 03:51:11,2022-05-04 03:51:12,1.032s,PASSED
+,,,,,,,
+Test Cases/TestCase-AddUser-Download-2,Chrome 100.0.4896.127,,,2022-05-04 03:51:12,2022-05-04 03:51:34,21.114s,PASSED
+"openBrowser("""")",Chrome 100.0.4896.127,,,2022-05-04 03:51:14,2022-05-04 03:51:16,2.786s,PASSED
+"navigateToUrl(""https://nk-gke-test.gcp.workmap.ai/#/signIn"")",Chrome 100.0.4896.127,,,2022-05-04 03:51:16,2022-05-04 03:51:23,6.491s,PASSED
+"setText(findTestObject(""Object Repository/Page_Workmap/input_Sign in_normal_login_username (4)""), ""pankajunk@gmail.com"")",Chrome 100.0.4896.127,,,2022-05-04 03:51:23,2022-05-04 03:51:24,1.224s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Workmap/input_Sign in_normal_login_password (4)""), ""Piu45nT0PQ8="")",Chrome 100.0.4896.127,,,2022-05-04 03:51:24,2022-05-04 03:51:25,0.719s,PASSED
+"click(findTestObject(""Object Repository/Page_Workmap/button_Log in (4)""))",Chrome 100.0.4896.127,,,2022-05-04 03:51:25,2022-05-04 03:51:26,0.618s,PASSED
+"click(findTestObject(""Object Repository/Page_Workmap/span_SA (1)""))",Chrome 100.0.4896.127,,,2022-05-04 03:51:26,2022-05-04 03:51:27,1.839s,PASSED
+"click(findTestObject(""Object Repository/Page_Workmap/div_Users (2)""))",Chrome 100.0.4896.127,,,2022-05-04 03:51:27,2022-05-04 03:51:28,0.835s,PASSED
+"click(findTestObject(""Object Repository/Page_Workmap/button_Add New (2)""))",Chrome 100.0.4896.127,,,2022-05-04 03:51:28,2022-05-04 03:51:29,1.046s,PASSED
+"setText(findTestObject(""Object Repository/Page_Workmap/input_Add New User_email (1)""), ""mmj761776@gmail.com"")",Chrome 100.0.4896.127,,,2022-05-04 03:51:29,2022-05-04 03:51:31,1.317s,PASSED
+"click(findTestObject(""Object Repository/Page_Workmap/div_Account Role (1)""))",Chrome 100.0.4896.127,,,2022-05-04 03:51:31,2022-05-04 03:51:32,1.378s,PASSED
+"click(findTestObject(""Object Repository/Page_Workmap/li_Member (1)""))",Chrome 100.0.4896.127,,,2022-05-04 03:51:32,2022-05-04 03:51:33,0.877s,PASSED
+"click(findTestObject(""Object Repository/Page_Workmap/button_Add New User (1)""))",Chrome 100.0.4896.127,,,2022-05-04 03:51:33,2022-05-04 03:51:34,0.718s,PASSED
+,,,,,,,
+Test Cases/TestCase-Download-Patients,Chrome 100.0.4896.127,,,2022-05-04 03:52:48,2022-05-04 03:53:08,20.438s,PASSED
+"openBrowser("""")",Chrome 100.0.4896.127,,,2022-05-04 03:52:48,2022-05-04 03:52:50,2.480s,PASSED
+"navigateToUrl(""https://nk-gke-test.gcp.workmap.ai/#/signIn"")",Chrome 100.0.4896.127,,,2022-05-04 03:52:50,2022-05-04 03:52:57,6.250s,PASSED
+"setText(findTestObject(""Object Repository/Page_Workmap/input_Sign in_normal_login_username (5)""), ""pankajunk@gmail.com"")",Chrome 100.0.4896.127,,,2022-05-04 03:52:57,2022-05-04 03:52:58,1.188s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Workmap/input_Sign in_normal_login_password (5)""), ""Piu45nT0PQ8="")",Chrome 100.0.4896.127,,,2022-05-04 03:52:58,2022-05-04 03:52:59,0.680s,PASSED
+"click(findTestObject(""Object Repository/Page_Workmap/button_Log in (5)""))",Chrome 100.0.4896.127,,,2022-05-04 03:52:59,2022-05-04 03:52:59,0.581s,PASSED
+"click(findTestObject(""Object Repository/Page_Workmap/svg (3)""))",Chrome 100.0.4896.127,,,2022-05-04 03:52:59,2022-05-04 03:53:01,1.884s,PASSED
+"click(findTestObject(""Object Repository/Page_Workmap/div_PoC Testing (3)""))",Chrome 100.0.4896.127,,,2022-05-04 03:53:01,2022-05-04 03:53:02,0.617s,PASSED
+"click(findTestObject(""Object Repository/Page_Workmap/a_All Patients (1)""))",Chrome 100.0.4896.127,,,2022-05-04 03:53:02,2022-05-04 03:53:02,0.708s,PASSED
+"click(findTestObject(""Object Repository/Page_Workmap/button_Add Phase_ant-btn download__button a_993cea (1)""))",Chrome 100.0.4896.127,,,2022-05-04 03:53:02,2022-05-04 03:53:05,2.450s,PASSED
+"click(findTestObject(""Object Repository/Page_Workmap/div_Home Testing (2)""))",Chrome 100.0.4896.127,,,2022-05-04 03:53:05,2022-05-04 03:53:06,0.900s,PASSED
+"click(findTestObject(""Object Repository/Page_Workmap/a_Patients (3)""))",Chrome 100.0.4896.127,,,2022-05-04 03:53:06,2022-05-04 03:53:06,0.755s,PASSED
+"click(findTestObject(""Object Repository/Page_Workmap/button_Add Phase_ant-btn download__button a_993cea (1)""))",Chrome 100.0.4896.127,,,2022-05-04 03:53:06,2022-05-04 03:53:08,1.926s,PASSED
