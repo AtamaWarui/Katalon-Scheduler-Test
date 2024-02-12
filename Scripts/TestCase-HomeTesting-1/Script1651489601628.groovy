@@ -21,9 +21,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://nk-gke-test.gcp.workmap.ai/#/forms/2/s287es89d0j14kieq3y3nj9115d9atd9')
 
-WebUI.setText(findTestObject('Object Repository/Page_Workmap/input_Email_ant-input'), 'mmj761776@gmail.com')
+WebUI.setText(findTestObject('Object Repository/Page_Workmap/input_Email_ant-input'), '')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Workmap/input_Password_ant-input'), '5xx1bkCcAlw=')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Workmap/input_Password_ant-input'), '')
 
 WebUI.click(findTestObject('Object Repository/Page_Workmap/button_Forgot Password_ant-btn form-submit-_936258'))
 
